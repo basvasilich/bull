@@ -719,7 +719,7 @@ Re-run a job that has failed. Returns a promise that resolves when the job is sc
 ### Job#discard
 
 ```ts
-discard(): Promise
+discard(): Void
 ```
 
 Ensure this job is never ran again even if `attemptsMade` is less than `job.attempts`.
